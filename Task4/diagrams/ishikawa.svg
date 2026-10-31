@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2240" height="1290" viewBox="0 0 2240 1290">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285" /></marker></defs>
+<rect width="100%" height="100%" fill="white" />
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">Диаграмма Исикавы — риски миграции «Медикаменте»</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="40" dy="0">Потенциальные причины снижения производительности и устойчивости. Для B01–B18 в отчёте определены меры, приоритеты и проверки.</tspan></text>
+<polyline points="65,620 1920,620.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="440.0,230 640,620" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="420,315 420,320 486.15384615384613,320" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="420,425 420,430 542.5641025641025,430" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="420,535 420,540 598.974358974359,540" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1030.0,230 1230,620" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1010,315 1010,320 1076.1538461538462,320" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1010,425 1010,430 1132.5641025641025,430" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1010,535 1010,540 1188.974358974359,540" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1620.0,230 1820,620" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1600,315 1600,320 1666.1538461538462,320" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1600,425 1600,430 1722.5641025641025,430" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1600,535 1600,540 1778.974358974359,540" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="440.0,1040 640,620" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="420,945 420,950 482.85714285714283,950" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="420,835 420,840 535.2380952380952,840" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="420,725 420,730 587.6190476190476,730" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1030.0,1040 1230,620" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1010,945 1010,950 1072.857142857143,950" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1010,835 1010,840 1125.2380952380952,840" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1010,725 1010,730 1177.6190476190477,730" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1620.0,1040 1820,620" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1600,945 1600,950 1662.857142857143,950" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1600,835 1600,840 1715.2380952380952,840" fill="none" stroke="#607285" stroke-width="1.6" />
+<polyline points="1600,725 1600,730 1767.6190476190477,730" fill="none" stroke="#607285" stroke-width="1.6" />
+<rect x="1920" y="550" width="280" height="140" rx="12" fill="#fff5dd" stroke="#b98b24" stroke-width="2" />
+<text x="2060.0" y="603.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="2060.0" dy="0">Снижение скорости</tspan><tspan x="2060.0" dy="21.6">и устойчивости</tspan><tspan x="2060.0" dy="21.6">при миграции и росте ×5</tspan></text>
+<rect x="165" y="160" width="350" height="70" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="340.0" y="200.0" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="340.0" dy="0">Инфраструктура</tspan>
+</text>
+<text x="242.5" y="284.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="242.5" dy="0">B01 Общий сервер —</tspan>
+<tspan x="242.5" dy="21.6">единая точка отказа</tspan>
+</text>
+<text x="242.5" y="394.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="242.5" dy="0">B02 Насыщение дисков,</tspan>
+<tspan x="242.5" dy="21.6">нехватка ёмкости</tspan>
+</text>
+<text x="242.5" y="504.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="242.5" dy="0">B03 Задержки и обрывы</tspan>
+<tspan x="242.5" dy="21.6">каналов филиалов</tspan>
+</text>
+<rect x="755" y="160" width="350" height="70" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="930.0" y="200.0" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="930.0" dy="0">Данные</tspan>
+</text>
+<text x="832.5" y="284.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="832.5" dy="0">B04 Дубли пациентов,</tspan>
+<tspan x="832.5" dy="21.6">ошибочная идентификация</tspan>
+</text>
+<text x="832.5" y="394.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="832.5" dy="0">B05 Изменения схем Excel,</tspan><tspan x="832.5" dy="21.6">ошибки распознавания</tspan></text>
+<text x="832.5" y="504.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="832.5" dy="0">B06 Два источника записи,</tspan>
+<tspan x="832.5" dy="21.6">расхождения данных</tspan>
+</text>
+<rect x="1345" y="160" width="350" height="70" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="1520.0" y="200.0" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1520.0" dy="0">Интеграции и ПО</tspan>
+</text>
+<text x="1422.5" y="284.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1422.5" dy="0">B07 Блокировки файловой 1С,</tspan>
+<tspan x="1422.5" dy="21.6">зависимость от OLE</tspan>
+</text>
+<text x="1422.5" y="394.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1422.5" dy="0">B08 Таймауты партнёров,</tspan>
+<tspan x="1422.5" dy="21.6">повторные операции</tspan>
+</text>
+<text x="1422.5" y="504.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1422.5" dy="0">B09 Тяжёлые SQL и выгрузки,</tspan>
+<tspan x="1422.5" dy="21.6">конкуренция с приёмом</tspan>
+</text>
+<rect x="165" y="1040" width="350" height="70" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="340.0" y="1080.0" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="340.0" dy="0">Персонал</tspan>
+</text>
+<text x="242.5" y="914.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="242.5" dy="0">B10 Недостаток ресурсов IT</tspan><tspan x="242.5" dy="21.6">для проекта и сопровождения</tspan></text>
+<text x="242.5" y="804.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="242.5" dy="0">B11 Ошибки ручного ввода,</tspan>
+<tspan x="242.5" dy="21.6">непривычные процессы</tspan>
+</text>
+<text x="242.5" y="694.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="242.5" dy="0">B12 Неопределённая</tspan><tspan x="242.5" dy="21.6">ответственность за данные</tspan></text>
+<rect x="755" y="1040" width="350" height="70" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="930.0" y="1080.0" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="930.0" dy="0">Процессы</tspan>
+</text>
+<text x="832.5" y="914.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="832.5" dy="0">B13 Недостаток замеров</tspan><tspan x="832.5" dy="21.6">для оценки нагрузки</tspan></text>
+<text x="832.5" y="804.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="832.5" dy="0">B14 Непроверенное</tspan><tspan x="832.5" dy="21.6">переключение и откат</tspan></text>
+<text x="832.5" y="694.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="832.5" dy="0">B15 Очередь ручной</tspan>
+<tspan x="832.5" dy="21.6">проверки классификации</tspan>
+</text>
+<rect x="1345" y="1040" width="350" height="70" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="1520.0" y="1080.0" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1520.0" dy="0">Защита и наблюдаемость</tspan>
+</text>
+<text x="1422.5" y="914.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1422.5" dy="0">B16 Нагрузка шифрования,</tspan>
+<tspan x="1422.5" dy="21.6">KMS и записи аудита</tspan>
+</text>
+<text x="1422.5" y="804.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1422.5" dy="0">B17 Обход прав в импорте,</tspan>
+<tspan x="1422.5" dy="21.6">лишние выгрузки</tspan>
+</text>
+<text x="1422.5" y="694.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="1422.5" dy="0">B18 Недостаточный мониторинг</tspan><tspan x="1422.5" dy="21.6">и непроверенное восстановление</tspan></text>
+<rect x="45" y="1160" width="2130" height="55" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="59" y="1184" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="59" dy="0">Исходная система: общий сервер, файловые 1С и ручные операции; IT-команда — три человека. Резервирование, пределы нагрузки, качество данных и готовность процедур проверяются при обследовании.</tspan></text>
+<rect x="45" y="1225" width="2130" height="50" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="59" y="1249" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="59" dy="0">Порядок: владельцы данных и исходные замеры → восстановление и права доступа → пробный перенос и испытания при росте ×5 → репетиция переключения и отката → решение по критериям готовности.</tspan></text>
+</svg>
