@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="910" viewBox="0 0 1680 910">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285" /></marker></defs>
+<rect width="100%" height="100%" fill="white" />
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">C4 · C1 — контекст MVP</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="40" dy="0">Горизонт: два месяца. Внутренние механизмы платформы раскрыты на C2.</tspan>
+</text>
+<polyline points="370,262.5 480,262 480,400 640,400.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="370,612.5 480,612 480,500 640,500.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1030,400.0 1160,400 1160,262 1290,262.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1290,612.5 1160,612 1160,500 1030,500.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<rect x="50" y="190" width="320" height="145" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2" />
+<text x="210.0" y="245.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Пациент</tspan>
+<tspan x="210.0" dy="21.6">[Person]</tspan>
+<tspan x="210.0" dy="21.6">Самостоятельная запись</tspan>
+</text>
+<rect x="50" y="540" width="320" height="145" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2" />
+<text x="210.0" y="595.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Ресепшен / врач</tspan>
+<tspan x="210.0" dy="21.6">[Person]</tspan>
+<tspan x="210.0" dy="21.6">Расписание и напоминания</tspan>
+</text>
+<rect x="640" y="350" width="390" height="200" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="835.0" y="422.6" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="835.0" dy="0">Платформа «Медикаменте»</tspan>
+<tspan x="835.0" dy="21.6">[Software System]</tspan>
+<tspan x="835.0" dy="21.6">Профиль, договор, основания</tspan>
+<tspan x="835.0" dy="21.6">и запись на приём</tspan>
+</text>
+<rect x="1290" y="190" width="320" height="145" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="1450.0" y="245.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1450.0" dy="0">Active Directory</tspan>
+<tspan x="1450.0" dy="21.6">[External Software System]</tspan>
+<tspan x="1450.0" dy="21.6">Учётные записи сотрудников</tspan>
+</text>
+<rect x="1290" y="540" width="320" height="145" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="1450.0" y="595.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1450.0" dy="0">1С / файловый контур</tspan>
+<tspan x="1450.0" dy="21.6">[External Software System]</tspan>
+<tspan x="1450.0" dy="21.6">Учёт и медкарты сохраняются</tspan>
+</text>
+<rect x="395.95" y="308.5" width="168.1" height="43.0" fill="white" rx="3" />
+<text x="480" y="325.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="480" dy="0">Запись, отмена, профиль</tspan>
+<tspan x="480" dy="17.55">HTTPS</tspan>
+</text>
+<rect x="399.3" y="543.5" width="161.4" height="43.0" fill="white" rx="3" />
+<text x="480" y="560.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="480" dy="0">Расписание / сведения</tspan>
+<tspan x="480" dy="17.55">для напоминания, HTTPS</tspan>
+</text>
+<rect x="1075.95" y="308.5" width="168.1" height="43.0" fill="white" rx="3" />
+<text x="1160" y="325.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1160" dy="0">Федерация идентификации</tspan>
+<tspan x="1160" dy="17.55">через Keycloak, LDAPS</tspan>
+</text>
+<rect x="1079.3" y="543.5" width="161.4" height="43.0" fill="white" rx="3" />
+<text x="1160" y="560.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1160" dy="0">Проверенный импорт</tspan>
+<tspan x="1160" dy="17.55">пациентов и расписаний</tspan>
+</text>
+<rect x="45" y="750" width="1580" height="62" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="59" y="774" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="59" dy="0">Платформа включает порталы, приложение, IAM, хранение и аудит. Учётный контур 1С и существующий файловый сервер находятся за её границей.</tspan></text>
+<rect x="45" y="825" width="1580" height="62" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="59" y="849" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="59" dy="0">Доступ пациентов к общему диску закрыт. Ресепшен напоминает за сутки; клинические результаты, онлайн-эквайринг, мобильное приложение и партнёрский API вводятся на следующем этапе.</tspan></text>
+</svg>

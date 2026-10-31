@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="26.0.0" type="device">
+  <diagram name="MVP" id="context-mvp-">
+    <mxGraphModel dx="1680" dy="910" grid="1" gridSize="10" page="1" pageWidth="1680" pageHeight="910" pageScale="1" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="C4 · C1 — контекст MVP" style="text;html=0;align=left;fontSize=25;fontStyle=1;fontColor=#152f4b;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1600" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Горизонт: два месяца. Внутренние механизмы платформы раскрыты на C2." style="text;html=0;align=left;fontSize=14;fontColor=#536578;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="68" width="1600" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" value="Пациент&#10;[Person]&#10;Самостоятельная запись" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="50" y="190" width="320" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="staff" value="Ресепшен / врач&#10;[Person]&#10;Расписание и напоминания" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="50" y="540" width="320" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="clinic" value="Платформа «Медикаменте»&#10;[Software System]&#10;Профиль, договор, основания&#10;и запись на приём" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="640" y="350" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ad" value="Active Directory&#10;[External Software System]&#10;Учётные записи сотрудников" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f2f3f5;strokeColor=#6c7480;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="190" width="320" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="legacy" value="1С / файловый контур&#10;[External Software System]&#10;Учёт и медкарты сохраняются" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f2f3f5;strokeColor=#6c7480;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="540" width="320" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_0" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.25;" parent="1" edge="1" source="patient" target="clinic">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="262" />
+              <mxPoint x="480" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el0" value="Запись, отмена, профиль&#10;HTTPS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="389.5" y="312" width="181" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.75;" parent="1" edge="1" source="staff" target="clinic">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="612" />
+              <mxPoint x="480" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el1" value="Расписание / сведения&#10;для напоминания, HTTPS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="393.0" y="547" width="174" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.25;entryX=0;entryY=0.5;" parent="1" edge="1" source="clinic" target="ad">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="400" />
+              <mxPoint x="1160" y="262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el2" value="Федерация идентификации&#10;через Keycloak, LDAPS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1069.5" y="312" width="181" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.5;entryX=1;entryY=0.75;" parent="1" edge="1" source="legacy" target="clinic">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="612" />
+              <mxPoint x="1160" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el3" value="Проверенный импорт&#10;пациентов и расписаний" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1073.0" y="547" width="174" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" value="Платформа включает порталы, приложение, IAM, хранение и аудит. Учётный контур 1С и существующий файловый сервер находятся за её границей." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="750" width="1580" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Доступ пациентов к общему диску закрыт. Ресепшен напоминает за сутки; клинические результаты, онлайн-эквайринг, мобильное приложение и партнёрский API вводятся на следующем этапе." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="825" width="1580" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
