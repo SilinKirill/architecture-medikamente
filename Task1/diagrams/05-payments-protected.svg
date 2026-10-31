@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1300" viewBox="0 0 1660 1300">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">Оплата — защищённые онлайн- и кассовые потоки</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="40" dy="0">Целевое состояние: источник статуса онлайн-оплаты — проверенный ответ эквайера. Редирект браузера и сообщение пациента не подтверждают платёж.</tspan>
+</text>
+<rect x="475" y="140" width="1130" height="980" rx="12" fill="none" stroke="#9aa9b8" stroke-dasharray="8 5"/>
+<text x="490" y="167" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="490" dy="0">Граница обработки клиники · Billing и адаптер учёта · PAN/CVV сюда не поступают</tspan>
+</text>
+<rect x="20" y="490" width="350" height="250" rx="12" fill="none" stroke="#9aa9b8" stroke-dasharray="8 5"/>
+<text x="35" y="517" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="35" dy="0">Карточный контур эквайера</tspan>
+</text>
+<polyline points="345,230.0 520,230.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="520,296.0 345,296.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1130,230.0 850,230.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="850,296.0 1130,296.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="195.0,320 195.0,550" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="520,260.0 400,260 400,587.5 345,587.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="285.0,550 285,455 602.5,455 602.5,320" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="345,655.0 520,670.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1217.5,320 1217.5,405 734.5,405 734.5,550" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="850,580.0 1040,580 1040,365 1392.5,365 1392.5,320" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="685.0,700 685.0,900" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="345,932.5 520,932.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="520,1004.0 345,1004.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="850,932.5 1130,932.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1130,1004.0 850,1004.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1305.0,700 1305,790 800.5,790 800.5,900" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="685.0,1030 685,1080 1550,1080 1550,625 1480,625.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="45" y="200" width="300" height="120" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="195.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Пациент</tspan>
+<tspan x="195.0" dy="21.6">[участник]</tspan>
+</text>
+<rect x="520" y="200" width="330" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="685.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="685.0" dy="0">P5.1 Проверить счёт</tspan>
+<tspan x="685.0" dy="21.6">и создать платёжную сессию</tspan>
+</text>
+<rect x="1130" y="200" width="350" height="120" fill="#edf6ef"/><path d="M1130 200h350 M1130 320h350" stroke="#39734e" stroke-width="2"/>
+<text x="1305.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1305.0" dy="0">D1 Billing / PostgreSQL</tspan>
+<tspan x="1305.0" dy="21.6">invoice_id, payment_id, статус</tspan>
+</text>
+<rect x="45" y="550" width="300" height="150" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="195.0" y="608.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Pext Провести оплату</tspan>
+<tspan x="195.0" dy="21.6">[внешний процесс эквайера]</tspan>
+<tspan x="195.0" dy="21.6">Hosted-форма и карточные данные</tspan>
+</text>
+<rect x="520" y="550" width="330" height="150" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="685.0" y="608.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="685.0" dy="0">P5.2 Проверить callback</tspan>
+<tspan x="685.0" dy="21.6">подпись, заказ, сумму, валюту</tspan>
+<tspan x="685.0" dy="21.6">и повтор события</tspan>
+</text>
+<rect x="1130" y="550" width="350" height="150" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="1305.0" y="608.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1305.0" dy="0">ККМ</tspan>
+<tspan x="1305.0" dy="21.6">[участник кассового обмена]</tspan>
+<tspan x="1305.0" dy="21.6">Фискальный результат</tspan>
+</text>
+<rect x="45" y="900" width="300" height="130" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="195.0" y="959.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Кассир / бухгалтер</tspan>
+<tspan x="195.0" dy="21.6">[участник]</tspan>
+</text>
+<rect x="520" y="900" width="330" height="130" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="685.0" y="948.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="685.0" dy="0">P5.3 Сверить оплату,</tspan>
+<tspan x="685.0" dy="21.6">учёт и фискализацию</tspan>
+<tspan x="685.0" dy="21.6">(адаптер 1С)</tspan>
+</text>
+<rect x="1130" y="900" width="350" height="130" fill="#edf6ef"/><path d="M1130 900h350 M1130 1030h350" stroke="#39734e" stroke-width="2"/>
+<text x="1305.0" y="959.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1305.0" dy="0">D2 1С:Бухгалтерия</tspan>
+<tspan x="1305.0" dy="21.6">проводки и связи с чеками</tspan>
+</text>
+<rect x="384.45" y="195.5" width="101.10000000000001" height="43.0" fill="white" rx="3"/>
+<text x="435" y="212.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="435" dy="0">invoice_id</tspan>
+<tspan x="435" dy="17.55">начать оплату</tspan>
+</text>
+<rect x="364.35" y="313.5" width="141.3" height="43.0" fill="white" rx="3"/>
+<text x="435" y="330.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="435" dy="0">URL формы эквайера</tspan>
+<tspan x="435" dy="17.55">без карточных полей</tspan>
+</text>
+<rect x="916.0" y="193.5" width="148.0" height="43.0" fill="white" rx="3"/>
+<text x="990" y="210.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Счёт и сумма клиники</tspan>
+<tspan x="990" dy="17.55">TLS</tspan>
+</text>
+<rect x="912.65" y="313.5" width="154.70000000000002" height="43.0" fill="white" rx="3"/>
+<text x="990" y="330.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Сессия / payment_id</tspan>
+<tspan x="990" dy="17.55">только статус pending</tspan>
+</text>
+<rect x="95.89999999999999" y="388.5" width="188.20000000000002" height="43.0" fill="white" rx="3"/>
+<text x="190" y="405.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="190" dy="0">Карта / PAN / CVV</tspan>
+<tspan x="190" dy="17.55">HTTPS, только hosted-форма</tspan>
+</text>
+<rect x="331.0" y="448.5" width="148.0" height="43.0" fill="white" rx="3"/>
+<text x="405" y="465.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="405" dy="0">Сумма + непрямой ID</tspan>
+<tspan x="405" dy="17.55">запрос сессии, HTTPS</tspan>
+</text>
+<rect x="475.95" y="433.5" width="168.1" height="43.0" fill="white" rx="3"/>
+<text x="560" y="450.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="560" dy="0">session_id / hosted URL</tspan>
+<tspan x="560" dy="17.55">HTTPS</tspan>
+</text>
+<rect x="361.0" y="674.75" width="148.0" height="60.5" fill="white" rx="3"/>
+<text x="435" y="691.4" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="435" dy="0">Подписанный callback</tspan>
+<tspan x="435" dy="17.55">статус и ID события,</tspan>
+<tspan x="435" dy="17.55">HTTPS</tspan>
+</text>
+<rect x="909.25" y="383.5" width="181.5" height="43.0" fill="white" rx="3"/>
+<text x="1000" y="400.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1000" dy="0">Ожидаемые сумма, валюта</tspan>
+<tspan x="1000" dy="17.55">заказ и предыдущий статус</tspan>
+</text>
+<rect x="1132.65" y="343.5" width="154.70000000000002" height="43.0" fill="white" rx="3"/>
+<text x="1210" y="360.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1210" dy="0">Подтверждённый статус</tspan>
+<tspan x="1210" dy="17.55">идемпотентно + аудит</tspan>
+</text>
+<rect x="604.3" y="768.5" width="161.4" height="43.0" fill="white" rx="3"/>
+<text x="685" y="785.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="685" dy="0">Проверенный payment_id</tspan>
+<tspan x="685" dy="17.55">без PAN/CVV</tspan>
+</text>
+<rect x="367.7" y="892.5" width="134.60000000000002" height="43.0" fill="white" rx="3"/>
+<text x="435" y="909.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="435" dy="0">Кассовая операция</tspan>
+<tspan x="435" dy="17.55">либо запрос сверки</tspan>
+</text>
+<rect x="361.0" y="1018.5" width="148.0" height="43.0" fill="white" rx="3"/>
+<text x="435" y="1035.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="435" dy="0">Статус оплаты / чека</tspan>
+<tspan x="435" dy="17.55">расхождения учёта</tspan>
+</text>
+<rect x="905.95" y="893.5" width="168.1" height="43.0" fill="white" rx="3"/>
+<text x="990" y="910.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Проводка с внешним ID</tspan>
+<tspan x="990" dy="17.55">без повторного списания</tspan>
+</text>
+<rect x="936.1" y="1018.5" width="107.8" height="43.0" fill="white" rx="3"/>
+<text x="990" y="1035.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Учётный статус</tspan>
+<tspan x="990" dy="17.55">для сверки</tspan>
+</text>
+<rect x="1019.3" y="768.5" width="161.4" height="43.0" fill="white" rx="3"/>
+<text x="1100" y="785.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1100" dy="0">Чек / статус операции</tspan>
+<tspan x="1100" dy="17.55">локальный TCP/IP + OLE</tspan>
+</text>
+<rect x="1469.35" y="818.5" width="141.3" height="43.0" fill="white" rx="3"/>
+<text x="1540" y="835.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1540" dy="0">Команда чека с ID</tspan>
+<tspan x="1540" dy="17.55">через компоненту 1С</tspan>
+</text>
+<rect x="40" y="1150" width="1560" height="65" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="1174" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Онлайн: перед изменением статуса проверяются подпись, идентификатор заказа, сумма/валюта, допустимый переход и уникальный event_id. При сомнении — сверка со статусом эквайера. Успешный return URL от браузера</tspan>
+<tspan x="54" dy="18.900000000000002">не делает счёт оплаченным.</tspan>
+</text>
+<rect x="40" y="1225" width="1560" height="65" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="1249" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Касса: 1С/ККМ сохраняют регламентированный учёт; подтверждение кассира допускается только для его кассовой операции и сверяется с чеком. OLE остаётся локальным в закрытом сегменте. Во всех потоках —</tspan>
+<tspan x="54" dy="18.900000000000002">минимальные поля, контроль роли, шифрование хранения и аудит. Риски: R03, R04, R05, R06, R08.</tspan>
+</text>
+</svg>

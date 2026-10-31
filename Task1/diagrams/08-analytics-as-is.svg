@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">Подготовка аналитики — исходное состояние</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="40" dy="0">Текущие потоки данных. Вопросы обследования указаны в примечаниях.</tspan>
+</text>
+<rect x="450" y="135" width="1000" height="610" rx="12" fill="none" stroke="#9aa9b8" stroke-dasharray="8 5"/>
+<text x="465" y="162" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="465" dy="0">Граница обработки в клинике: общий сервер и ручные операции</tspan>
+</text>
+<polyline points="345,260.0 505,265.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="815,265.0 1080,265.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1235.0,325 1235,415 660,415 660.0,535" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="505,565.0 345,562.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="345,623.0 505,631.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1080,565.0 815,565.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="815,631.0 1080,631.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="45" y="205" width="300" height="110" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="195.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Владелец исходных данных</tspan>
+<tspan x="195.0" dy="21.6">[внешний участник процесса]</tspan>
+</text>
+<rect x="45" y="535" width="300" height="110" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="195.0" y="584.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Бизнес-аналитик / руководство</tspan>
+<tspan x="195.0" dy="21.6">[внешний участник процесса]</tspan>
+</text>
+<rect x="505" y="205" width="310" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="660.0" y="259.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="660.0" dy="0">P8.1 Собрать рабочую</tspan>
+<tspan x="660.0" dy="21.6">выгрузку</tspan>
+</text>
+<rect x="1080" y="205" width="310" height="120" fill="#edf6ef"/><path d="M1080 205h310 M1080 325h310" stroke="#39734e" stroke-width="2"/>
+<text x="1235.0" y="259.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1235.0" dy="0">D1 Excel и локальные копии</tspan>
+<tspan x="1235.0" dy="21.6">PII / HEALTH / FINANCE</tspan>
+</text>
+<rect x="505" y="535" width="310" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="660.0" y="589.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="660.0" dy="0">P8.2 Обработать выборку</tspan>
+<tspan x="660.0" dy="21.6">в Python / Jupyter</tspan>
+</text>
+<rect x="1080" y="535" width="310" height="120" fill="#edf6ef"/><path d="M1080 535h310 M1080 655h310" stroke="#39734e" stroke-width="2"/>
+<text x="1235.0" y="589.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1235.0" dy="0">D2 Отчёты и результаты</tspan>
+<tspan x="1235.0" dy="21.6">аналитических расчётов</tspan>
+</text>
+<rect x="364.4" y="214.75" width="121.2" height="60.5" fill="white" rx="3"/>
+<text x="425" y="231.4" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="425" dy="0">Выбранные данные</tspan>
+<tspan x="425" dy="17.55">PII / HEALTH /</tspan>
+<tspan x="425" dy="17.55">FINANCE</tspan>
+</text>
+<rect x="850.9" y="223.5" width="188.20000000000002" height="43.0" fill="white" rx="3"/>
+<text x="945" y="240.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="945" dy="0">Рабочая копия</tspan>
+<tspan x="945" dy="17.55">смешанная чувствительность</tspan>
+</text>
+<rect x="886.05" y="378.5" width="127.9" height="43.0" fill="white" rx="3"/>
+<text x="950" y="395.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="950" dy="0">Набор для расчёта</tspan>
+<tspan x="950" dy="17.55">смешанные данные</tspan>
+</text>
+<rect x="357.7" y="534.25" width="134.60000000000002" height="25.5" fill="white" rx="3"/>
+<text x="425" y="551.0" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="425" dy="0">Отчёт / показатели</tspan>
+</text>
+<rect x="357.7" y="648.25" width="134.60000000000002" height="25.5" fill="white" rx="3"/>
+<text x="425" y="665.0" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="425" dy="0">Запрос показателей</tspan>
+</text>
+<rect x="871.0" y="532.25" width="148.0" height="25.5" fill="white" rx="3"/>
+<text x="945" y="549.0" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="945" dy="0">Предыдущий результат</tspan>
+</text>
+<rect x="901.15" y="652.25" width="87.7" height="25.5" fill="white" rx="3"/>
+<text x="945" y="669.0" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="945" dy="0">Новый отчёт</tspan>
+</text>
+<rect x="40" y="770" width="1410" height="75" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="794" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Рабочая модель аналитики: выборка из файлов → расчёт в Python/Jupyter → отчёт. Состав наборов, получатели и контроль копий уточняются с аналитиком. R02, R03, R07, R11, R12.</tspan>
+</text>
+<rect x="40" y="855" width="1410" height="55" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="879" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Легенда: прямоугольник — участник; скруглённый блок P — операция; две линии D — хранилище. PII — персональные; HEALTH — медицинские; HR — кадровые. Меры в подписи применяются к указанным</tspan>
+<tspan x="54" dy="18.900000000000002">операциям и потокам.</tspan>
+</text>
+</svg>

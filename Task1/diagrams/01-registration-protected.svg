@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">Регистрация пациента — защита потоков</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="40" dy="0">Целевые потоки и меры защиты. Внедрение: MVP → развитие в течение года.</tspan>
+</text>
+<rect x="450" y="135" width="1000" height="610" rx="12" fill="none" stroke="#9aa9b8" stroke-dasharray="8 5"/>
+<text x="465" y="162" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="465" dy="0">Граница обработки в клинике: авторизованные сервисы и хранилища</tspan>
+</text>
+<polyline points="345,260.0 505,265.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="815,265.0 1080,265.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1235.0,325 1235,415 660,415 660.0,535" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="505,565.0 345,562.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="345,623.0 505,631.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1080,565.0 815,565.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="815,631.0 1080,631.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="815,541.0 1025,541 1025,365 1312,365 1312.5,325" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="45" y="205" width="300" height="110" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="195.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Пациент</tspan>
+<tspan x="195.0" dy="21.6">[внешний участник процесса]</tspan>
+</text>
+<rect x="45" y="535" width="300" height="110" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="195.0" y="584.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="195.0" dy="0">Ресепшен</tspan>
+<tspan x="195.0" dy="21.6">[внешний участник процесса]</tspan>
+</text>
+<rect x="505" y="205" width="310" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="660.0" y="259.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="660.0" dy="0">P1.1 Проверить цель</tspan>
+<tspan x="660.0" dy="21.6">и зарегистрировать</tspan>
+</text>
+<rect x="1080" y="205" width="310" height="120" fill="#edf6ef"/><path d="M1080 205h310 M1080 325h310" stroke="#39734e" stroke-width="2"/>
+<text x="1235.0" y="259.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1235.0" dy="0">D1 Registry / PostgreSQL</tspan>
+<tspan x="1235.0" dy="21.6">PII, patient_id</tspan>
+</text>
+<rect x="505" y="535" width="310" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="660.0" y="589.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="660.0" dy="0">P1.2 Проверить роль</tspan>
+<tspan x="660.0" dy="21.6">и обновить профиль</tspan>
+</text>
+<rect x="1080" y="535" width="310" height="120" fill="#edf6ef"/><path d="M1080 535h310 M1080 655h310" stroke="#39734e" stroke-width="2"/>
+<text x="1235.0" y="589.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1235.0" dy="0">D2 Documents / S3</tspan>
+<tspan x="1235.0" dy="21.6">договоры и основания</tspan>
+</text>
+<rect x="354.35" y="223.5" width="141.3" height="43.0" fill="white" rx="3"/>
+<text x="425" y="240.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="425" dy="0">ФИО, дата рождения,</tspan>
+<tspan x="425" dy="17.55">контакты, анкета</tspan>
+</text>
+<rect x="881.05" y="223.5" width="127.9" height="43.0" fill="white" rx="3"/>
+<text x="945" y="240.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="945" dy="0">Карточка пациента</tspan>
+<tspan x="945" dy="17.55">PII</tspan>
+</text>
+<rect x="869.3" y="378.5" width="161.4" height="43.0" fill="white" rx="3"/>
+<text x="950" y="395.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="950" dy="0">Профиль, идентификатор</tspan>
+<tspan x="950" dy="17.55">PII</tspan>
+</text>
+<rect x="350.0" y="525.5" width="150" height="43.0" fill="white" rx="3"/>
+<text x="425" y="542.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="425" dy="0">Проверенные реквизиты</tspan>
+<tspan x="425" dy="17.55">и статус договора</tspan>
+</text>
+<rect x="354.35" y="639.5" width="141.3" height="43.0" fill="white" rx="3"/>
+<text x="425" y="656.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="425" dy="0">Исправления, запрос</tspan>
+<tspan x="425" dy="17.55">договора</tspan>
+</text>
+<rect x="887.75" y="523.5" width="114.5" height="43.0" fill="white" rx="3"/>
+<text x="945" y="540.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="945" dy="0">Договор, анкета</tspan>
+<tspan x="945" dy="17.55">PII / HEALTH</tspan>
+</text>
+<rect x="894.45" y="643.5" width="101.10000000000001" height="43.0" fill="white" rx="3"/>
+<text x="945" y="660.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="945" dy="0">Скан и версия</tspan>
+<tspan x="945" dy="17.55">договора</tspan>
+</text>
+<rect x="1082.65" y="343.5" width="154.70000000000002" height="43.0" fill="white" rx="3"/>
+<text x="1160" y="360.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1160" dy="0">Проверенные изменения</tspan>
+<tspan x="1160" dy="17.55">профиля; аудит</tspan>
+</text>
+<rect x="40" y="770" width="1410" height="75" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="794" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Сбор: минимальная анкета, отдельные цели. Передача: TLS. Registry/договоры: разные права и ключи. Ресепшен не получает HEALTH. Изменения и чтение — в аудит. Риски: R01, R02, R03, R09, R11.</tspan>
+</text>
+<rect x="40" y="855" width="1410" height="55" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="879" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Легенда: прямоугольник — участник; скруглённый блок P — операция; две линии D — хранилище. PII — персональные; HEALTH — медицинские; HR — кадровые. Меры в подписи применяются к указанным</tspan>
+<tspan x="54" dy="18.900000000000002">операциям и потокам.</tspan>
+</text>
+</svg>
