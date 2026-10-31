@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1830" height="1240" viewBox="0 0 1830 1240">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285" /></marker></defs>
+<rect width="100%" height="100%" fill="white" />
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">C4 · C1 — целевое состояние</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="40" dy="0">Горизонт: один год. Все системы обработки ПДн и их копии — в выбранном контуре РФ; внешние получатели ограничены договорами и целями.</tspan>
+</text>
+<polyline points="375,240.0 530,240 530,430 700,430.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="375,572.5 700,540.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1110,420.0 1260,420 1260,223 1400,222.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="905.0,390 905.0,290" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1110,480.0 1400,477.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1110,550.0 1260,550 1260,743 1400,742.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1069.0,590 1069,740 1190,740 1190,1002 1400,1002.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="864.0,590 864.0,880" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="375,970.0 700,960.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<rect x="45" y="170" width="330" height="140" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2" />
+<text x="210.0" y="223.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Пациент</tspan>
+<tspan x="210.0" dy="21.6">[Person]</tspan>
+<tspan x="210.0" dy="21.6">Портал / мобильное приложение</tspan>
+</text>
+<rect x="45" y="500" width="330" height="145" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2" />
+<text x="210.0" y="555.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Сотрудники клиники</tspan>
+<tspan x="210.0" dy="21.6">[Person]</tspan>
+<tspan x="210.0" dy="21.6">Доступ по роли и отношению к пациенту</tspan>
+</text>
+<rect x="45" y="900" width="330" height="140" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2" />
+<text x="210.0" y="953.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Аналитик / руководство</tspan>
+<tspan x="210.0" dy="21.6">[Person]</tspan>
+<tspan x="210.0" dy="21.6">Разрешённые показатели</tspan>
+</text>
+<rect x="700" y="390" width="410" height="200" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="905.0" y="462.6" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="905.0" dy="0">Платформа «Медикаменте»</tspan>
+<tspan x="905.0" dy="21.6">[Software System]</tspan>
+<tspan x="905.0" dy="21.6">Запись, CRM, медицинские документы,</tspan>
+<tspan x="905.0" dy="21.6">платежи, согласия и аудит</tspan>
+</text>
+<rect x="700" y="880" width="410" height="160" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="905.0" y="943.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="905.0" dy="0">Аналитическая платформа</tspan>
+<tspan x="905.0" dy="21.6">[Software System]</tspan>
+<tspan x="905.0" dy="21.6">Классификация и безопасные витрины</tspan>
+</text>
+<rect x="1400" y="150" width="350" height="145" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="1575.0" y="205.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1575.0" dy="0">Учётный контур 1С</tspan>
+<tspan x="1575.0" dy="21.6">[External Software System]</tspan>
+<tspan x="1575.0" dy="21.6">Бухгалтерия, кадры и склад</tspan>
+</text>
+<rect x="700" y="150" width="410" height="140" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="905.0" y="203.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="905.0" dy="0">Active Directory</tspan>
+<tspan x="905.0" dy="21.6">[External Software System]</tspan>
+<tspan x="905.0" dy="21.6">Учётные записи сотрудников</tspan>
+</text>
+<rect x="1400" y="410" width="350" height="135" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="1575.0" y="460.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1575.0" dy="0">Лаборатория</tspan>
+<tspan x="1575.0" dy="21.6">[External Software System]</tspan>
+<tspan x="1575.0" dy="21.6">Минимальные заказы и результаты</tspan>
+</text>
+<rect x="1400" y="670" width="350" height="145" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="1575.0" y="725.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1575.0" dy="0">Платёжный провайдер</tspan>
+<tspan x="1575.0" dy="21.6">[External Software System]</tspan>
+<tspan x="1575.0" dy="21.6">Токен и статус; PAN/CVV вне клиники</tspan>
+</text>
+<rect x="1400" y="930" width="350" height="145" rx="0" fill="#f2f3f5" stroke="#6c7480" stroke-width="2" />
+<text x="1575.0" y="985.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1575.0" dy="0">Провайдер уведомлений</tspan>
+<tspan x="1575.0" dy="21.6">[External Software System]</tspan>
+<tspan x="1575.0" dy="21.6">Push / голосовой робот без диагнозов</tspan>
+</text>
+<rect x="449.3" y="313.5" width="161.4" height="43.0" fill="white" rx="3" />
+<text x="530" y="330.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="530" dy="0">Свои записи, документы</tspan>
+<tspan x="530" dy="17.55">HTTPS</tspan>
+</text>
+<rect x="469.35" y="533.5" width="141.3" height="43.0" fill="white" rx="3" />
+<text x="540" y="550.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="540" dy="0">Операции в пределах</tspan>
+<tspan x="540" dy="17.55">полномочий, HTTPS</tspan>
+</text>
+<rect x="1175.95" y="298.5" width="168.1" height="43.0" fill="white" rx="3" />
+<text x="1260" y="315.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1260" dy="0">Проводки / сверка учёта</tspan>
+<tspan x="1260" dy="17.55">защищённый адаптер</tspan>
+</text>
+<rect x="817.6" y="318.5" width="174.8" height="43.0" fill="white" rx="3" />
+<text x="905" y="335.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="905" dy="0">Федерация через Keycloak</tspan>
+<tspan x="905" dy="17.55">LDAPS</tspan>
+</text>
+<rect x="1191.05" y="448.5" width="127.9" height="43.0" fill="white" rx="3" />
+<text x="1255" y="465.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1255" dy="0">Заказ / результат</tspan>
+<tspan x="1255" dy="17.55">HTTPS + mTLS</tspan>
+</text>
+<rect x="1162.55" y="623.5" width="194.9" height="43.0" fill="white" rx="3" />
+<text x="1260" y="640.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1260" dy="0">Платёж / проверенный статус</tspan>
+<tspan x="1260" dy="17.55">HTTPS, подпись webhook</tspan>
+</text>
+<rect x="1095.9" y="838.5" width="188.20000000000002" height="43.0" fill="white" rx="3" />
+<text x="1190" y="855.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1190" dy="0">Напоминание / ответ</tspan>
+<tspan x="1190" dy="17.55">HTTPS, минимальный payload</tspan>
+</text>
+<rect x="695.85" y="718.5" width="208.3" height="43.0" fill="white" rx="3" />
+<text x="800" y="735.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="800" dy="0">Разрешённые пакетные выгрузки</tspan>
+<tspan x="800" dy="17.55">TLS, purpose + lineage</tspan>
+</text>
+<rect x="447.6" y="928.5" width="174.8" height="43.0" fill="white" rx="3" />
+<text x="535" y="945.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="535" dy="0">Запрос / сводные данные</tspan>
+<tspan x="535" dy="17.55">HTTPS, доступ к витринам</tspan>
+</text>
+<rect x="45" y="1125" width="1710" height="72" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="59" y="1149" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="59" dy="0">Связи включают передачу запросов, результатов и статусов.</tspan></text>
+</svg>

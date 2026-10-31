@@ -1,0 +1,178 @@
+<mxfile host="drawio-plugin" modified="2026-10-31T10:44:42.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.5" etag="sEvFEHcgpF4GY_RMM8Oq" type="embed" pages="2">
+  <diagram name="As-Is" id="06-hr-accounting-as-is">
+    <mxGraphModel dx="1665" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="919" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Кадры, зарплата и бухгалтерия — исходное состояние" style="text;html=0;align=left;fontSize=25;fontStyle=1;fontColor=#152f4b;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1420" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Текущие потоки данных. Вопросы обследования указаны в примечаниях." style="text;html=0;align=left;fontSize=14;fontColor=#536578;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="68" width="1420" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="g0" value="Граница обработки в клинике: общий сервер и ручные операции" style="rounded=1;dashed=1;fillColor=none;strokeColor=#9aa9b8;verticalAlign=top;align=left;spacing=12;fontSize=14;fontStyle=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="450" y="135" width="1000" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="Сотрудник / бухгалтер&#xa;[внешний участник процесса]" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="205" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="Бухгалтер / получатель отчёта&#xa;[внешний участник процесса]" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="535" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="P6.1 Внести кадровые&#xa;и расчётные сведения" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="505" y="205" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="D1 1С:Бухгалтерия&#xa;HR + FINANCE" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="205" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="P6.2 Рассчитать зарплату&#xa;и подготовить отчёт" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="505" y="535" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="D2 Файлы отчётности&#xa;HR + FINANCE" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="535" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_0" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="e1" target="p1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el0" value="Данные сотрудника&#xa;HR + PII" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="355.5" y="227" width="139" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p1" target="d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el1" value="Кадровые записи&#xa;и начисления" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="882.5" y="227" width="125" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d1" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="415" />
+              <mxPoint x="660" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el2" value="Начисления, реквизиты&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="866.5" y="382" width="167" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" source="p2" target="e2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el3" value="Расчёт / отчёт&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="366" y="529" width="118" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.8;entryX=0;entryY=0.8;" parent="1" source="e2" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el4" value="Запрос /&#xa;корректировка&#xa;отчётности" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="369.5" y="635" width="111" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" source="d2" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el5" value="Прошлые отчёты&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="886" y="527" width="118" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.8;entryX=0;entryY=0.8;" parent="1" source="p2" target="d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6" value="Отчёт и версия&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="886" y="647" width="118" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" value="Кадровый и расчётный учёт ведётся в 1С. Бухгалтерии уточнить получателей отчётности, каналы передачи и места хранения файлов. R01, R03, R08, R09." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="1410" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Легенда: прямоугольник — участник; скруглённый блок P — операция; две линии D — хранилище. PII — персональные; HEALTH — медицинские; HR — кадровые. Меры в подписи применяются к указанным операциям и потокам." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="40" y="855" width="1410" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Protected" id="06-hr-accounting-protected">
+    <mxGraphModel dx="1665" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="919" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Кадры, зарплата и бухгалтерия — защита потоков" style="text;html=0;align=left;fontSize=25;fontStyle=1;fontColor=#152f4b;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1420" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Целевые потоки и меры защиты. Внедрение: MVP → развитие в течение года." style="text;html=0;align=left;fontSize=14;fontColor=#536578;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="68" width="1420" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="g0" value="Граница обработки в клинике: авторизованные сервисы и хранилища" style="rounded=1;dashed=1;fillColor=none;strokeColor=#9aa9b8;verticalAlign=top;align=left;spacing=12;fontSize=14;fontStyle=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="450" y="135" width="1000" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="Сотрудник / бухгалтер&#xa;[внешний участник процесса]" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="205" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="Бухгалтер / получатель отчёта&#xa;[внешний участник процесса]" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="535" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="P6.1 Проверить HR-роль&#xa;и внести сведения" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="505" y="205" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="D1 1С / защищённый узел&#xa;HR + FINANCE" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="205" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="P6.2 Рассчитать и выгрузить&#xa;разрешённый отчёт" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="505" y="535" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="D2 Защищённый архив&#xa;HR + FINANCE" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="535" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_0" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="e1" target="p1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el0" value="Данные сотрудника&#xa;HR + PII" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="355.5" y="227" width="139" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p1" target="d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el1" value="Кадровые записи&#xa;и начисления" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="882.5" y="227" width="125" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="d1" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="415" />
+              <mxPoint x="660" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el2" value="Начисления, реквизиты&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="866.5" y="382" width="167" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" source="p2" target="e2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el3" value="Расчёт / отчёт&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="366" y="529" width="118" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.8;entryX=0;entryY=0.8;" parent="1" source="e2" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el4" value="Запрос /&#xa;корректировка&#xa;отчётности" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="369.5" y="635" width="111" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" source="d2" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el5" value="Прошлые отчёты&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="886" y="527" width="118" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.8;entryX=0;entryY=0.8;" parent="1" source="p2" target="d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6" value="Отчёт и версия&#xa;HR + FINANCE" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="886" y="647" width="118" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" value="HR-права отдельно от пациентских. Сегмент 1С, MFA администраторов, TLS/VPN для разрешённых каналов. Шифрование диска/резервных копий; выгрузка по цели и сроку хранения. Риски: R01, R03, R08, R09." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="1410" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Легенда: прямоугольник — участник; скруглённый блок P — операция; две линии D — хранилище. PII — персональные; HEALTH — медицинские; HR — кадровые. Меры в подписи применяются к указанным операциям и потокам." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="40" y="855" width="1410" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

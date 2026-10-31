@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1390" viewBox="0 0 2200 1390">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285" /></marker></defs>
+<rect width="100%" height="100%" fill="white" />
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">C4 · C2 — годовая платформа</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="40" dy="0">Контейнеры — приложения и хранилища. Registry, Scheduling, Clinical, Billing, Documents и Consent реализуются модулями одного Java-приложения.</tspan></text>
+<rect x="35" y="125" width="2130" height="1090" rx="12" fill="none" stroke="#9aa9b8" stroke-dasharray="8 5" />
+<text x="50" y="152" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="50" dy="0">Граница платформы «Медикаменте» · РФ · закрытые сети приложений, данных и управления</tspan>
+</text>
+<polyline points="425,275.0 640,280.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1015,280.0 1230,275.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1015,227.5 1110,227 1110,165 1935,165 1935.0,205" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="250.0,345 250.0,590" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="827.5,355 827.5,590" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1015,325.0 1110,325 1110,490 1405,490 1405.0,590" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1580,310.0 1650,310 1650,430 1935,430 1935.0,590" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="425,1060.0 500,1060 500,332 640,332.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="733.75,355 734,425 570,425 570,920 734,920 733.75,985" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1317.5,345 1317,390 1160,390 1160,925 1317,925 1317.5,985" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="1935.0,725 1935.0,790" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<polyline points="2110,657.5 2140,657 2140,1060 2110,1060.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)" />
+<rect x="75" y="205" width="350" height="140" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="250.0" y="258.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="250.0" dy="0">Клиентские интерфейсы</tspan>
+<tspan x="250.0" dy="21.6">[Container: Web / Mobile]</tspan>
+<tspan x="250.0" dy="21.6">Пациент, ресепшен, врач, кассир</tspan>
+</text>
+<rect x="640" y="205" width="375" height="150" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="827.5" y="252.6" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="827.5" dy="0">Доменные API</tspan>
+<tspan x="827.5" dy="21.6">[Container: Java]</tspan>
+<tspan x="827.5" dy="21.6">Registry / Scheduling / Clinical</tspan>
+<tspan x="827.5" dy="21.6">Billing / Documents / Consent</tspan>
+</text>
+<rect x="1230" y="205" width="350" height="140" fill="#edf6ef" /><path d="M1230 205h350 M1230 345h350" stroke="#39734e" stroke-width="2" />
+<text x="1405.0" y="258.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1405.0" dy="0">Операционная БД</tspan>
+<tspan x="1405.0" dy="21.6">[Container: PostgreSQL]</tspan>
+<tspan x="1405.0" dy="21.6">Схемы и роли по доменам</tspan>
+</text>
+<rect x="1760" y="205" width="350" height="140" fill="#edf6ef" /><path d="M1760 205h350 M1760 345h350" stroke="#39734e" stroke-width="2" />
+<text x="1935.0" y="258.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1935.0" dy="0">Документы</tspan>
+<tspan x="1935.0" dy="21.6">[Container: S3 storage]</tspan>
+<tspan x="1935.0" dy="21.6">Медицинские файлы и договоры</tspan>
+</text>
+<rect x="75" y="590" width="350" height="135" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="250.0" y="640.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="250.0" dy="0">Идентификация</tspan>
+<tspan x="250.0" dy="21.6">[Container: Keycloak]</tspan>
+<tspan x="250.0" dy="21.6">OIDC / сотрудники через AD</tspan>
+</text>
+<rect x="640" y="590" width="375" height="135" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="827.5" y="640.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="827.5" dy="0">Политики доступа</tspan>
+<tspan x="827.5" dy="21.6">[Container: OPA]</tspan>
+<tspan x="827.5" dy="21.6">PDP; PEP — в доменных API</tspan>
+</text>
+<rect x="1230" y="590" width="350" height="135" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="1405.0" y="640.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1405.0" dy="0">Ключи и секреты</tspan>
+<tspan x="1405.0" dy="21.6">[Container: Vault]</tspan>
+<tspan x="1405.0" dy="21.6">Раздельные полномочия и ротация</tspan>
+</text>
+<rect x="1760" y="590" width="350" height="135" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="1935.0" y="640.9" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1935.0" dy="0">Приём аудита</tspan>
+<tspan x="1935.0" dy="21.6">[Container: Java worker]</tspan>
+<tspan x="1935.0" dy="21.6">Доставка из outbox, алерты</tspan>
+</text>
+<rect x="75" y="985" width="350" height="150" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="250.0" y="1043.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="250.0" dy="0">Адаптер старого контура</tspan>
+<tspan x="250.0" dy="21.6">[Container: Java worker]</tspan>
+<tspan x="250.0" dy="21.6">Импорт / сверка; 1С и AD снаружи</tspan>
+</text>
+<rect x="640" y="985" width="375" height="150" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="827.5" y="1043.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="827.5" dy="0">Интеграции и уведомления</tspan>
+<tspan x="827.5" dy="21.6">[Container: Java worker]</tspan>
+<tspan x="827.5" dy="21.6">Лаборатория, эквайер, push/voice</tspan>
+</text>
+<rect x="1230" y="985" width="350" height="150" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2" />
+<text x="1405.0" y="1032.6" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle"><tspan x="1405.0" dy="0">Пакетный экспорт</tspan><tspan x="1405.0" dy="21.6">[Container: Java worker]</tspan><tspan x="1405.0" dy="21.6">Read-only выгрузка в аналитическую</tspan><tspan x="1405.0" dy="21.6">платформу</tspan></text>
+<rect x="1760" y="790" width="350" height="95" fill="#edf6ef" /><path d="M1760 790h350 M1760 885h350" stroke="#39734e" stroke-width="2" />
+<text x="1935.0" y="831.7" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1935.0" dy="0">Поиск событий аудита</tspan>
+<tspan x="1935.0" dy="21.6">[Container: Elastic]</tspan>
+</text>
+<rect x="1760" y="985" width="350" height="150" fill="#edf6ef" /><path d="M1760 985h350 M1760 1135h350" stroke="#39734e" stroke-width="2" />
+<text x="1935.0" y="1043.4" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1935.0" dy="0">Архив аудита</tspan>
+<tspan x="1935.0" dy="21.6">[Container: WORM object storage]</tspan>
+<tspan x="1935.0" dy="21.6">Отдельный доступ и retention</tspan>
+</text>
+<rect x="449.3" y="228.5" width="161.4" height="43.0" fill="white" rx="3" />
+<text x="530" y="245.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="530" dy="0">Операции, access token</tspan>
+<tspan x="530" dy="17.55">HTTPS</tspan>
+</text>
+<rect x="1062.75" y="228.5" width="114.5" height="43.0" fill="white" rx="3" />
+<text x="1120" y="245.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1120" dy="0">Доменные данные</tspan>
+<tspan x="1120" dy="17.55">TLS + роль БД</tspan>
+</text>
+<rect x="1479.2" y="143.5" width="201.6" height="43.0" fill="white" rx="3" />
+<text x="1580" y="160.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1580" dy="0">Файл / авторизованная выдача</tspan>
+<tspan x="1580" dy="17.55">TLS</tspan>
+</text>
+<rect x="206.15" y="438.5" width="87.7" height="43.0" fill="white" rx="3" />
+<text x="250" y="455.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="250" dy="0">Вход / OIDC</tspan>
+<tspan x="250" dy="17.55">HTTPS</tspan>
+</text>
+<rect x="729.2" y="438.5" width="201.6" height="43.0" fill="white" rx="3" />
+<text x="830" y="455.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="830" dy="0">Проверка роли, объекта, цели</tspan>
+<tspan x="830" dy="17.55">TLS; fail closed</tspan>
+</text>
+<rect x="1165.95" y="468.5" width="168.1" height="43.0" fill="white" rx="3" />
+<text x="1250" y="485.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1250" dy="0">Ключ / секрет</tspan>
+<tspan x="1250" dy="17.55">TLS; сервисная identity</tspan>
+</text>
+<rect x="1705.95" y="408.5" width="168.1" height="43.0" fill="white" rx="3" />
+<text x="1790" y="425.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1790" dy="0">Outbox: события доступа</tspan>
+<tspan x="1790" dy="17.55">и изменений, TLS</tspan>
+</text>
+<rect x="402.55" y="808.5" width="194.9" height="43.0" fill="white" rx="3" />
+<text x="500" y="825.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="500" dy="0">Проверенный импорт / сверка</tspan>
+<tspan x="500" dy="17.55">через API, TLS</tspan>
+</text>
+<rect x="652.6" y="898.5" width="174.8" height="43.0" fill="white" rx="3" />
+<text x="740" y="915.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="740" dy="0">Задания / outbox</tspan>
+<tspan x="740" dy="17.55">без прямых PII в очереди</tspan>
+</text>
+<rect x="1249.25" y="903.5" width="181.5" height="43.0" fill="white" rx="3" />
+<text x="1340" y="920.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1340" dy="0">Выгрузка через выделенный</tspan>
+<tspan x="1340" dy="17.55">read-only адаптер, TLS</tspan>
+</text>
+<rect x="1864.35" y="742.25" width="141.3" height="25.5" fill="white" rx="3" />
+<text x="1935" y="759.0" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1935" dy="0">Индекс событий, TLS</tspan>
+</text>
+<rect x="2052.75" y="913.5" width="114.5" height="43.0" fill="white" rx="3" />
+<text x="2110" y="930.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="2110" dy="0">Архив событий</tspan>
+<tspan x="2110" dy="17.55">TLS / retention</tspan>
+</text>
+<rect x="40" y="1235" width="2110" height="65" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="54" y="1259" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="54" dy="0">Приложения и фоновые обработчики используют отдельные сервисные учётные записи; внешние соединения проходят через адаптеры. Прямой доступ клиентов к хранилищам закрыт. Ключами и секретами управляет Vault.</tspan></text>
+<rect x="40" y="1310" width="2110" height="60" rx="8" fill="#fff7e7" stroke="#d7b571" />
+<text x="54" y="1334" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start"><tspan x="54" dy="0">Год: фоновые обработчики масштабируются по очередям; Clinical и Billing расширяют Java-приложение. OpenMetadata, NiFi и классификатор входят в аналитическую платформу.</tspan></text>
+</svg>

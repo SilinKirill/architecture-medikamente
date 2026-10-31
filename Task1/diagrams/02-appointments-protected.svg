@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1230" viewBox="0 0 1660 1230">
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#607285"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="53" font-family="Arial, sans-serif" font-size="25" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="40" dy="0">Запись и напоминания — защита потоков</tspan>
+</text>
+<text x="40" y="88" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="40" dy="0">MVP: пациент записывается через портал; ресепшен вручную напоминает за сутки пациенту и специалисту.</tspan>
+</text>
+<rect x="475" y="135" width="1130" height="935" rx="12" fill="none" stroke="#9aa9b8" stroke-dasharray="8 5"/>
+<text x="490" y="162" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start" font-weight="bold">
+<tspan x="490" dy="0">Граница обработки клиники · TLS, RBAC/ABAC, аудит чтений и изменений</tspan>
+</text>
+<polyline points="360,255.0 520,260.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="850,260.0 1130,260.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="850,296.0 1030,296 1030,440 1305,440 1305.0,510" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1305.0,320 1305,380 685,380 685.0,510" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="1130,570.0 850,570.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="520,552.0 360,553.5" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="360,603.0 430,603 430,889 520,889.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="685.0,630 685.0,850" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="520,941.0 25,941 25,255 60,255.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="850,915.0 1130,915.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="685.0,980 685,1030 1550,1030 1550,284 1480,284.0" fill="none" stroke="#607285" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="60" y="200" width="300" height="110" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="210.0" y="249.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Пациент</tspan>
+<tspan x="210.0" dy="21.6">[участник]</tspan>
+</text>
+<rect x="520" y="200" width="330" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="685.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="685.0" dy="0">P2.1 Проверить владельца</tspan>
+<tspan x="685.0" dy="21.6">и забронировать слот</tspan>
+</text>
+<rect x="1130" y="200" width="350" height="120" fill="#edf6ef"/><path d="M1130 200h350 M1130 320h350" stroke="#39734e" stroke-width="2"/>
+<text x="1305.0" y="254.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1305.0" dy="0">D1 Scheduling / PostgreSQL</tspan>
+<tspan x="1305.0" dy="21.6">patient_id, слот, статусы</tspan>
+</text>
+<rect x="60" y="515" width="300" height="110" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="210.0" y="564.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="210.0" dy="0">Ресепшен</tspan>
+<tspan x="210.0" dy="21.6">[участник]</tspan>
+</text>
+<rect x="520" y="510" width="330" height="120" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="685.0" y="564.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="685.0" dy="0">P2.2 Отобрать записи</tspan>
+<tspan x="685.0" dy="21.6">на следующий день</tspan>
+</text>
+<rect x="1130" y="510" width="350" height="120" fill="#edf6ef"/><path d="M1130 510h350 M1130 630h350" stroke="#39734e" stroke-width="2"/>
+<text x="1305.0" y="564.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1305.0" dy="0">D2 Registry / PostgreSQL</tspan>
+<tspan x="1305.0" dy="21.6">контакт и предпочтения</tspan>
+</text>
+<rect x="520" y="850" width="330" height="130" rx="12" fill="#e8f0fb" stroke="#2361a6" stroke-width="2"/>
+<text x="685.0" y="909.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="685.0" dy="0">P2.3 Напомнить и записать</tspan>
+<tspan x="685.0" dy="21.6">результат (ресепшен)</tspan>
+</text>
+<rect x="1130" y="850" width="350" height="130" rx="0" fill="#f3f0f8" stroke="#716184" stroke-width="2"/>
+<text x="1305.0" y="909.2" font-family="Arial, sans-serif" font-size="16" fill="#172d43" text-anchor="middle">
+<tspan x="1305.0" dy="0">Медицинский специалист</tspan>
+<tspan x="1305.0" dy="21.6">[участник]</tspan>
+</text>
+<rect x="386.1" y="223.5" width="107.8" height="43.0" fill="white" rx="3"/>
+<text x="440" y="240.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="440" dy="0">Выбранный слот</tspan>
+<tspan x="440" dy="17.55">и профиль</tspan>
+</text>
+<rect x="912.65" y="223.5" width="154.70000000000002" height="43.0" fill="white" rx="3"/>
+<text x="990" y="240.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Подтверждённая запись</tspan>
+<tspan x="990" dy="17.55">medical / HEALTH</tspan>
+</text>
+<rect x="1082.65" y="418.5" width="154.70000000000002" height="43.0" fill="white" rx="3"/>
+<text x="1160" y="435.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1160" dy="0">Проверенный контакт</tspan>
+<tspan x="1160" dy="17.55">через модуль Registry</tspan>
+</text>
+<rect x="921.0" y="367.25" width="148.0" height="25.5" fill="white" rx="3"/>
+<text x="995" y="384.0" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="995" dy="0">Расписание на завтра</tspan>
+</text>
+<rect x="936.1" y="533.5" width="107.8" height="43.0" fill="white" rx="3"/>
+<text x="990" y="550.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Нужный контакт</tspan>
+<tspan x="990" dy="17.55">personal / PII</tspan>
+</text>
+<rect x="379.4" y="528.5" width="121.2" height="43.0" fill="white" rx="3"/>
+<text x="440" y="545.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="440" dy="0">Список для связи</tspan>
+<tspan x="440" dy="17.55">без диагнозов</tspan>
+</text>
+<rect x="386.15" y="723.5" width="87.7" height="43.0" fill="white" rx="3"/>
+<text x="430" y="740.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="430" dy="0">Выполнить</tspan>
+<tspan x="430" dy="17.55">напоминание</tspan>
+</text>
+<rect x="597.6" y="718.5" width="174.8" height="43.0" fill="white" rx="3"/>
+<text x="685" y="735.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="685" dy="0">Минимальные сведения</tspan>
+<tspan x="685" dy="17.55">и проверенный получатель</tspan>
+</text>
+<rect x="72.8" y="703.5" width="94.4" height="43.0" fill="white" rx="3"/>
+<text x="120" y="720.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="120" dy="0">Напоминание</tspan>
+<tspan x="120" dy="17.55">без диагноза</tspan>
+</text>
+<rect x="926.05" y="878.5" width="127.9" height="43.0" fill="white" rx="3"/>
+<text x="990" y="895.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="990" dy="0">Напоминание врачу</tspan>
+<tspan x="990" dy="17.55">его расписание</tspan>
+</text>
+<rect x="1482.75" y="713.5" width="114.5" height="43.0" fill="white" rx="3"/>
+<text x="1540" y="730.2" font-family="Arial, sans-serif" font-size="13" fill="#172d43" text-anchor="middle">
+<tspan x="1540" dy="0">Результат связи</tspan>
+<tspan x="1540" dy="17.55">и аудит</tspan>
+</text>
+<rect x="40" y="1100" width="1560" height="65" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="1124" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Контроль: чужой patient_id и занятый слот отклоняются; повтор запроса не создаёт дубль. Контакт не раскрывает диагноз; врач видит свои записи. Автоматические push/voice и подтверждение/отмена через приложение</tspan>
+<tspan x="54" dy="18.900000000000002">— годовой этап.</tspan>
+</text>
+<rect x="40" y="1175" width="1560" height="45" rx="8" fill="#fff7e7" stroke="#d7b571"/>
+<text x="54" y="1199" font-family="Arial, sans-serif" font-size="14" fill="#172d43" text-anchor="start">
+<tspan x="54" dy="0">Легенда: P — операция; D — хранилище; прямоугольник — участник. Связь врача с расписанием проверяется на сервере. Риски: R01, R03, R05, R06.</tspan>
+</text>
+</svg>

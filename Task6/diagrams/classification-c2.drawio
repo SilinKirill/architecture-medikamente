@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="26.0.0" type="device">
+  <diagram name="Classification engine C2" id="classification-c2-">
+    <mxGraphModel dx="2250" dy="1900" grid="1" gridSize="10" page="1" pageWidth="2250" pageHeight="1900" pageScale="1" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="C4 · C2 — классификация перед загрузкой в хранилище" style="text;html=0;align=left;fontSize=25;fontStyle=1;fontColor=#152f4b;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="2170" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Система: аналитическая платформа «Медикаменте». Пакетная обработка изменяемых, неразмеченных структур. Публикация доступна только после проверки." style="text;html=0;align=left;fontSize=14;fontColor=#536578;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="68" width="2170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="g0" value="Граница аналитической платформы · РФ · разделённые роли, сети и ключи зон" style="rounded=1;dashed=1;fillColor=none;strokeColor=#9aa9b8;verticalAlign=top;align=left;spacing=12;fontSize=14;fontStyle=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="475" y="145" width="1735" height="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="Операционная платформа / файлы&#10;[External Software System]&#10;Разрешённые Excel, CSV/JSON, PDF/JPG" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f2f3f5;strokeColor=#6c7480;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="260" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nifi" value="Приём и оркестрация&#10;[Container: Apache NiFi]&#10;Источник, хеш, схема и цель" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="550" y="260" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="landing" value="Приём / карантин / подготовка&#10;[Container: изолированное S3]&#10;Исходные пакеты и результаты" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="260" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jobs" value="Реестр заданий&#10;[Container: PostgreSQL]&#10;Очередь, назначения, версии, статусы&#10;Только ссылки, без содержимого" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1690" y="260" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="owner" value="Владелец данных&#10;[Person]&#10;Словарь, разбор спорных пакетов" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="650" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="catalog" value="Каталог данных&#10;[Container: OpenMetadata]&#10;Метки, владельцы, версии и связи&#10;Без медицинского содержимого" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="550" y="650" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="classifier" value="Классификатор&#10;[Container: Python]&#10;OCR, Presidio, русские правила&#10;Структура и содержимое" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="650" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="publisher" value="Проверка и публикация&#10;[Container: Python]&#10;Разбор, политики и агрегация&#10;Переключение готовых версий" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1690" y="650" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="analyst" value="Аналитик / BI&#10;[Person]&#10;Только разрешённые агрегаты" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f3f0f8;strokeColor=#716184;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1320" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="read" value="Сервис чтения (Read API)&#10;[Container: Python]&#10;Права, актуальная версия, аудит" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1330" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gold" value="Аналитические витрины&#10;[Container: ClickHouse]&#10;Проверенные сводные показатели&#10;Без прямых идентификаторов" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1120" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="curated" value="Закрытый слой обработанных данных&#10;[Container: защищённое S3]&#10;Псевдонимы и необходимые признаки&#10;Содержит персональные данные" style="shape=partialRectangle;left=0;right=0;top=1;bottom=1;html=0;whiteSpace=wrap;fillColor=#edf6ef;strokeColor=#39734e;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="1120" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="security" value="Платформенные службы безопасности&#10;[External Software System]&#10;IAM / OPA / Vault / аудит&#10;Исполнение правил — в сервисах и ACL" style="rounded=0;html=0;whiteSpace=wrap;fillColor=#f2f3f5;strokeColor=#6c7480;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1610" width="530" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_0" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" edge="1" source="source" target="nifi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el0" value="Разрешённый пакет&#10;TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="390.5" y="297" width="139" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" edge="1" source="nifi" target="landing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el1" value="Файлы и манифест&#10;TLS, приватное S3" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="928.5" y="297" width="153" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" parent="1" edge="1" source="nifi" target="jobs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="210" />
+              <mxPoint x="1860" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el2" value="Ссылка, хеш и версии&#10;TLS; уникальный job_id" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1179.0" y="192" width="202" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" edge="1" source="jobs" target="classifier">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860" y="490" />
+              <mxPoint x="1290" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el3" value="Задание, срок и прогресс&#10;TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1482.0" y="472" width="216" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" parent="1" edge="1" source="landing" target="classifier">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el4" value="Файл для полного сканирования&#10;TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1003.5" y="517" width="223" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.2;entryX=1;entryY=0.5;" parent="1" edge="1" source="classifier" target="landing">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1550" y="680" />
+              <mxPoint x="1550" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el5" value="Результаты / разбор / карантин&#10;Закрытые промежуточные файлы" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1442.0" y="557" width="216" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" edge="1" source="owner" target="catalog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6" value="Словарь и владельцы&#10;HTTPS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="383.5" y="692" width="153" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_7" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.75;entryX=0;entryY=0.75;dashed=1;" parent="1" edge="1" source="catalog" target="classifier">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el7" value="Утверждённая версия&#10;схемы / классификации" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="921.5" y="762" width="167" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_8" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" edge="1" source="classifier" target="catalog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el8" value="Метки, уверенность и связи&#10;TLS; без ПДн" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="907.5" y="652" width="195" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_9" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" edge="1" source="classifier" target="publisher">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el9" value="Манифест и ссылки на части&#10;Класс и версии, TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1483.0" y="707" width="174" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_10" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=1;dashed=1;" parent="1" edge="1" source="owner" target="publisher">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="945" />
+              <mxPoint x="1860" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el10" value="Решение по спорному пакету&#10;или понижению класса&#10;HTTPS, проверка прав" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="929.0" y="919" width="202" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_11" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.25;entryX=1;entryY=0.5;dashed=1;" parent="1" edge="1" source="publisher" target="jobs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2110" y="687" />
+              <mxPoint x="2110" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el11" value="CAS: версия и статус&#10;Фиксация публикации" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2030.0" y="472" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_12" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.15;exitY=1;entryX=0.5;entryY=0;" parent="1" edge="1" source="publisher" target="curated">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1741" y="1050" />
+              <mxPoint x="1290" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el12" value="Запись после проверки&#10;Чтение для агрегации, TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1423.0" y="1032" width="174" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_13" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0.8;entryX=0.5;entryY=0;" parent="1" edge="1" source="publisher" target="gold">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="770" />
+              <mxPoint x="1600" y="1005" />
+              <mxPoint x="720" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el13" value="Проверенные показатели&#10;Атомарная публикация" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="932.0" y="987" width="216" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_14" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" edge="1" source="analyst" target="read">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el14" value="Запросы / отчёты&#10;HTTPS + IAM" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="394.0" y="1352" width="132" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_15" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.25;entryX=1;entryY=0.5;" parent="1" edge="1" source="read" target="gold">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="1360" />
+              <mxPoint x="1000" y="1195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el15" value="Чтение текущей&#10;разрешённой версии, TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="909.5" y="1267" width="181" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_16" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.7;entryX=0.5;entryY=1;" parent="1" edge="1" source="read" target="curated">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="1414" />
+              <mxPoint x="1290" y="1414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el16" value="Разрешённый ML&#10;Особая роль и цель, TLS" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1126.5" y="1396" width="167" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_17" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=0.65;entryX=0.5;entryY=0;dashed=1;" parent="1" edge="1" source="publisher" target="security">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2175" y="747" />
+              <mxPoint x="2175" y="1550" />
+              <mxPoint x="1925" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el17" value="Решение OPA, ключи,&#10;учётные записи и аудит&#10;TLS; отказ при неизвестном" style="text;html=0;align=center;verticalAlign=middle;fontSize=13;fontColor=#354a60;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1914.0" y="1164" width="202" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="note0" value="Сплошные связи: данные и метаданные. Пунктир: управление, политики и утверждение. Обработчики и сервис чтения используют отдельные роли, TLS, Vault и защищённый аудит." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1610" width="1540" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Сервис чтения проверяет текущую версию в реестре заданий и права при каждом запросе. Прямой доступ к хранилищам и старым версиям закрыт. Публиковать проверенные слои может только служба публикации. Неопределённый класс запрещает публикацию." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1685" width="1540" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="Масштабирование: отдельные пулы OCR, классификации и чтения; ограниченные партии, управление входным потоком и временные назначения заданий. Версия конвейера учитывает все компоненты обработки; повтор не создаёт дубли и не заменяет новую публикацию старой." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1790" width="2140" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

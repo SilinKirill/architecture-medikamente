@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="26.0.0" type="device">
+  <diagram name="Причины узких мест" id="ishikawa-">
+    <mxGraphModel dx="2240" dy="1290" grid="1" gridSize="10" page="1" pageWidth="2240" pageHeight="1290" pageScale="1" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Диаграмма Исикавы — риски миграции «Медикаменте»" style="text;html=0;align=left;fontSize=25;fontStyle=1;fontColor=#152f4b;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="2160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Потенциальные причины снижения производительности и устойчивости. Для B01–B18 в отчёте определены меры, приоритеты и проверки." style="text;html=0;align=left;fontSize=14;fontColor=#536578;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="68" width="2160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="effect" value="Снижение скорости&#10;и устойчивости&#10;при миграции и росте ×5" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#fff5dd;strokeColor=#b98b24;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="550" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cat0" value="Инфраструктура" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="165" y="160" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="joint0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="640" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause0_0" value="B01 Общий сервер —&#10;единая точка отказа" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="265" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point0_0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="486.15384615384613" y="320" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause0_1" value="B02 Насыщение дисков,&#10;нехватка ёмкости" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="375" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point0_1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="542.5641025641025" y="430" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause0_2" value="B03 Задержки и обрывы&#10;каналов филиалов" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="485" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point0_2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="598.974358974359" y="540" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat1" value="Данные" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="755" y="160" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="joint1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause1_0" value="B04 Дубли пациентов,&#10;ошибочная идентификация" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="655" y="265" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point1_0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1076.1538461538462" y="320" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause1_1" value="B05 Изменения схем Excel,&#10;ошибки распознавания" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="655" y="375" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point1_1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1132.5641025641025" y="430" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause1_2" value="B06 Два источника записи,&#10;расхождения данных" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="655" y="485" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point1_2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1188.974358974359" y="540" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat2" value="Интеграции и ПО" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1345" y="160" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="joint2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause2_0" value="B07 Блокировки файловой 1С,&#10;зависимость от OLE" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="265" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point2_0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1666.1538461538462" y="320" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause2_1" value="B08 Таймауты партнёров,&#10;повторные операции" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="375" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point2_1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1722.5641025641025" y="430" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause2_2" value="B09 Тяжёлые SQL и выгрузки,&#10;конкуренция с приёмом" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="485" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point2_2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1778.974358974359" y="540" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat3" value="Персонал" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="165" y="1040" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="joint3" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="640" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause3_0" value="B10 Недостаток ресурсов IT&#10;для проекта и сопровождения" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="895" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point3_0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="482.85714285714283" y="950" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause3_1" value="B11 Ошибки ручного ввода,&#10;непривычные процессы" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="785" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point3_1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="535.2380952380952" y="840" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause3_2" value="B12 Неопределённая&#10;ответственность за данные" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="65" y="675" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point3_2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="587.6190476190476" y="730" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat4" value="Процессы" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="755" y="1040" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="joint4" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause4_0" value="B13 Недостаток замеров&#10;для оценки нагрузки" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="655" y="895" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point4_0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1072.857142857143" y="950" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause4_1" value="B14 Непроверенное&#10;переключение и откат" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="655" y="785" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point4_1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1125.2380952380952" y="840" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause4_2" value="B15 Очередь ручной&#10;проверки классификации" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="655" y="675" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point4_2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1177.6190476190477" y="730" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat5" value="Защита и наблюдаемость" style="rounded=1;html=0;whiteSpace=wrap;fillColor=#e8f0fb;strokeColor=#2361a6;strokeWidth=2;fontColor=#172d43;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="1345" y="1040" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="joint5" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="620" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause5_0" value="B16 Нагрузка шифрования,&#10;KMS и записи аудита" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="895" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point5_0" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1662.857142857143" y="950" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause5_1" value="B17 Обход прав в импорте,&#10;лишние выгрузки" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="785" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point5_1" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1715.2380952380952" y="840" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cause5_2" value="B18 Недостаточный мониторинг&#10;и непроверенное восстановление" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="675" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="point5_2" value="" style="text;html=0;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=16;fontColor=#172d43;" parent="1" vertex="1">
+          <mxGeometry x="1767.6190476190477" y="730" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_0" style="html=0;endArrow=block;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0;exitY=0;entryX=0;entryY=0.5;" parent="1" edge="1" source="start" target="effect">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.7857142857142857;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cat0" target="joint0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause0_0" target="point0_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause0_1" target="point0_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause0_2" target="point0_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.7857142857142857;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cat1" target="joint1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause1_0" target="point1_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause1_1" target="point1_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause1_2" target="point1_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.7857142857142857;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cat2" target="joint2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_10" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause2_0" target="point2_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause2_1" target="point2_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause2_2" target="point2_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.7857142857142857;exitY=0;entryX=0;entryY=0;" parent="1" edge="1" source="cat3" target="joint3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_14" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause3_0" target="point3_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_15" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause3_1" target="point3_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_16" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause3_2" target="point3_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_17" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.7857142857142857;exitY=0;entryX=0;entryY=0;" parent="1" edge="1" source="cat4" target="joint4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_18" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause4_0" target="point4_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_19" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause4_1" target="point4_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_20" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause4_2" target="point4_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_21" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=0.7857142857142857;exitY=0;entryX=0;entryY=0;" parent="1" edge="1" source="cat5" target="joint5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_22" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause5_0" target="point5_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_23" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause5_1" target="point5_1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_24" style="html=0;endArrow=none;endFill=1;strokeColor=#607285;strokeWidth=1.6;rounded=0;exitX=1;exitY=1;entryX=0;entryY=0;" parent="1" edge="1" source="cause5_2" target="point5_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note0" value="Исходная система: общий сервер, файловые 1С и ручные операции; IT-команда — три человека. Резервирование, пределы нагрузки, качество данных и готовность процедур проверяются при обследовании." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1160" width="2130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="Порядок: владельцы данных и исходные замеры → восстановление и права доступа → пробный перенос и испытания при росте ×5 → репетиция переключения и отката → решение по критериям готовности." style="rounded=1;html=0;whiteSpace=wrap;align=left;spacing=12;fontSize=14;fillColor=#fff7e7;strokeColor=#d7b571;fontColor=#4d421e;" parent="1" vertex="1">
+          <mxGeometry x="45" y="1225" width="2130" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
